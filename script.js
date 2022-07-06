@@ -92,4 +92,3 @@ addBtn.addEventListener('click', () => {
     form.reset();
   }
 });
-
