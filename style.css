@@ -32,7 +32,7 @@
 }
 
 
-.table:nth(odd) {
+.table:nth-of-type(odd) {
     background-color: grey;
     color: #fff;
 }
@@ -71,7 +71,7 @@
   margin-bottom:5px;
 
 }
-#x{
+/* #x{
   margin-bottom: 5px;
   text-decoration: none;
   color: rgb(184, 15, 15);
@@ -79,7 +79,7 @@
   font-weight: bold;
   flex-direction: row;
   justify-content: flex-end;
-}
+} */
 
 .b-title,
 .b-author,
@@ -101,5 +101,10 @@
 .x-pos {
   float: right;
   border: #020202 solid 1px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  flex-direction: row;
 }
 
