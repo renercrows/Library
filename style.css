@@ -11,10 +11,6 @@
   margin: 0 auto;
 }
 
-.container .row {
-  margin-bottom: 20px;
-}
-
 .table {
   display: flex;
   flex-direction: column;
@@ -31,10 +27,9 @@
   border: 1px solid gray;
 }
 
-
 .table:nth-of-type(odd) {
-    background-color: grey;
-    color: #fff;
+  background-color: grey;
+  color: #fff;
 }
 
 #title {
@@ -53,7 +48,8 @@
   margin-top: 12px;
   margin-bottom: 20px;
 }
-.row{
+
+.row {
   margin-bottom: 20px;
 }
 
@@ -62,15 +58,14 @@
   margin-bottom: 12px;
 }
 
-
-.book-title{
+.book-title {
   display: flex;
   flex-direction: row;
   font-size: 16px;
   font-weight: bold;
-  margin-bottom:5px;
-
+  margin-bottom: 5px;
 }
+
 /* #x{
   margin-bottom: 5px;
   text-decoration: none;
@@ -92,12 +87,14 @@
   margin-bottom: 5px;
   margin-top: 5px;
   box-sizing: border-box;
- font-size: 16px;
+  font-size: 16px;
 }
 
-.b-title,.b-author {
+.b-title,
+.b-author {
   float: left;
 }
+
 .x-pos {
   float: right;
   border: #020202 solid 1px;
@@ -107,4 +104,3 @@
   font-weight: bold;
   flex-direction: row;
 }
-
