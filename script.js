@@ -54,10 +54,12 @@ class UI {
     const row = document.createElement('div');
 
     row.innerHTML = `
+        <div class="tcard">
         <div class="b-title">${book.title}</div>
         <div class="b-author">${book.author}</div>
         <div class="x-pos"><a href="#" class="btn delete" id="x" >Remove</a></div>
         <br>
+        </div>
 `;
 
     list.appendChild(row);
