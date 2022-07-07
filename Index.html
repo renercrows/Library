@@ -4,10 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ feature
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+ main
     <title>Awesome Books</title>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+ feature
+
+<body>
+<main>
+
+    <div class="container">
+        <h1 class="title">Awesome Books</h1>
+        <br>
+        <table class="table">
+            <tbody id="book-list"></tbody>
+        </table>
+
+        <form id="book-form">
+            <h2 class="Addh2">Add a new book</h2>
+            <div class="form-group">
+                <label for="title"></label>
+                <input type="text" id="title" class="form-control" placeholder="Title"/>
+            </div>
+
+            <div class="form-group">
+                <label for="author"></label>
+                <input type="text" id="author" class="form-control" placeholder="Author" />
+            </div>
+
+            <input type="submit" value="Submit" class="btn btn-primary btn-block" />
+        </form>
+    </div>
+</main>
+</body>
+
 <body>
     <div id="date"></div>
     <main id="list">

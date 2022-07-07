@@ -1,3 +1,85 @@
 #list h1 {
   margin-top: 0;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.tcard {
+  display: grid;
+  grid-template-rows: repeat(1, 20px);
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1%;
+  background-color: grey;
+}
+
+.tcard:nth-child(odd) {
+  background-color: rgb(224, 208, 208);
+  color: rgb(2, 2, 2);
+}
+
+#title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+#author {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+.label {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.book-title {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.b-title,
+.b-author,
+.x-pos {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.b-title,
+.b-author {
+  float: left;
+}
+
+.x-pos {
+  align-items: center;
+  border: #020202 solid 1px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  flex-direction: row;
+  width: fit-content;
+}
