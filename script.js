@@ -1,4 +1,4 @@
-/* eslint max-classes-per-file: ['error', 3] */
+/* eslint max-classes-per-file: ['error', 4] */
 
 // Book Class: Represents a Book
 class Book {
