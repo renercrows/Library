@@ -1,0 +1,151 @@
+#table {
+  width: 90%;
+}
+
+.invisible {
+  display: none;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  color: gray;
+}
+
+.nav {
+  display: flex;
+  border: 1px solid grey;
+  font-family: sans-serif;
+}
+
+.nav2 {
+  display: flex;
+  list-style: none;
+  gap: 60%;
+  margin-left: 60%;
+}
+
+#add-new-btn {
+  flex-shrink: 0;
+  width: 60%;
+  border-right: 2px solid grey;
+}
+
+#list-btn {
+  flex-shrink: 0;
+  width: 40%;
+  border-right: 2px solid grey;
+  font-family: sans-serif;
+}
+
+.title {
+  padding-left: 1%;
+  font-family: sans-serif;
+}
+
+#date {
+  float: right;
+  padding-top: 1%;
+  padding-right: 1%;
+  font-family: sans-serif;
+}
+
+#list {
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+.title2 {
+  margin-left: -10%;
+}
+
+#empty-list {
+  margin-left: -10%;
+  font-family: sans-serif;
+}
+
+#invitation {
+  margin-left: -10%;
+  font-family: sans-serif;
+}
+
+.book-card {
+  display: grid;
+  grid-template-rows: repeat(2, 40px);
+  grid-template-columns: repeat(3, 400px);
+  margin-top: 1%;
+}
+
+.book-title {
+  margin-left: 10%;
+  text-align: left;
+}
+
+.book-author {
+  margin-left: 5%;
+  text-align: left;
+}
+
+.book-btn {
+  background-color: white;
+  border: 1px solid grey;
+  width: 20%;
+  margin-left: 60%;
+  margin-top: 2%;
+}
+
+#book-form {
+  margin-top: 10%;
+  outline: 1px solid grey;
+  background-color: rgb(243, 247, 251);
+  font-family: sans-serif;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  margin-left: -0.6%;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+#footer-text {
+  margin-left: 15%;
+  font-family: sans-serif;
+}
+
+#contact {
+  margin-left: 35%;
+  margin-top: 10%;
+  font-family: sans-serif;
+  font-size: 110%;
+}
+
+#add-new {
+  margin-left: 40%;
+  margin-top: 10%;
+  font-family: sans-serif;
+  font-size: 110%;
+}
+
+#title {
+  width: 30%;
+  margin-left: -3.5%;
+  margin-top: 5%;
+}
+
+#author {
+  width: 30%;
+  margin-left: -3.5%;
+}
+
+#button {
+  padding: 0.5%;
+  width: 8%;
+  margin-left: 17.8%;
+  background-color: white;
+  border: 1px solid grey;
+}

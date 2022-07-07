@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <script defer src="./js/main.js"></script>
+    <script src="./js/luxon.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <p class="title">Awesome Books</p>
+        <ul class="nav2">
+            <li id="list-btn" class="nav-item">List</li>
+            <li id="add-new-btn" class="nav-item link">Add New</li>
+            <li id="contact-btn" class="nav-item link">Contact</li>
+        </ul>
+    </nav>
+    <div id="date"></div>
+    <main id="list">
+        <h1 class="title2">All awesome books</h1>
+        <h2 id="empty-list"></h2>
+        <p id="invitation" class="link"></p>
+        <table id="table" class="border">
+            <tbody id="book-form"></tbody>
+        </table>
+    </main>
+    <form id="add-new" class="invisible">
+        <h2 class="h1">Add a new book</h2>
+        <input id="title" type="text" placeholder="Title">
+        <br>
+        <br>
+        <input id="author" type="text" placeholder="Author">
+        <br>
+        <br>
+        <div>
+            <small id="message" class=""></small>
+            <button class="btn border-secondary border-2" id="button" type="button">Add</button>
+        </div>
+    </form>
+    <section id="contact" class="invisible">
+        <h2>Contact Information</h2>
+        <p>
+            Do you have any questions or you just want to say "Hello"?
+        </p>
+        <p>
+            You can reach out to us!
+        </p>
+        <ul class="mx-5">
+            <li>Our email: mail@mail.com</li>
+            <li>Our phone number: 0043586534422 </li>
+            <li>Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+    </section>
+    <footer id="footer">
+        <div id="footer-text">
+            <p>Copyright Andy & Maximiliano</p>
+        </div>
+    </footer>
+</body>
+</html>
