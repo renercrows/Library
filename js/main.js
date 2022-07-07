@@ -100,7 +100,7 @@ addBtn.addEventListener('click', () => {
   }
 });
 
-//Navbar
+// Navbar
 
 /* eslint-disable no-undef */
 const listLink = document.getElementById('list-btn');
