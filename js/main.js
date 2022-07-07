@@ -18,10 +18,10 @@ class BookForm {
     const htmlString = `
       <tr>
         <td>
-          <article class="ms-3 row book-card">
-            <p class="book-title col-4"></p>
-            <p class="book-author col-4"></p>
-            <button class="book-btn col-3 border-secondary border-2 btn">Remove</button>
+          <article class="book-card">
+            <p class="book-title"></p>
+            <p class="book-author"></p>
+            <button class="book-btn">Remove</button>
           </article>
         </td>
       </tr>

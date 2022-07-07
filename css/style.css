@@ -73,11 +73,29 @@
 }
 
 .book-card {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-rows: repeat(2, 40px);
+  grid-template-columns: repeat(3, 400px);
   margin-top: 1%;
-  gap: 30%;
-  margin-bottom: 1%;
+}
+
+.book-title {
+  margin-left: 10%;
+  text-align: left;
+}
+
+
+.book-author {
+  margin-left: 5%;
+  text-align: left;
+}
+
+.book-btn {
+  background-color: white;
+  border: 1px solid grey;
+  width: 20%;
+  margin-left: 60%;
+  margin-top: 2%;
 }
 
 #book-form {
@@ -85,11 +103,6 @@
   outline: 1px solid grey;
   background-color: rgb(243, 247, 251);
   font-family: sans-serif;
-}
-
-.book-btn {
-  background-color: white;
-  border: 1px solid grey;
 }
 
 #footer {
