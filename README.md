@@ -50,15 +50,7 @@ To get started locally follow these simple example steps.
 
 ## Authors
 
-👤 **Daniel M. Matongo**
 
-- GitHub: [Daniel M. Matongo](https://github.com/mmatongo)
-- LinkedIn: [Daniel M. Matongo](https://linkedin.com/in/mmatongo)
-
-👤 **Rubén D. Pire**
-
-- GitHub: [Rubén D. Pire](https://github.com/rpire)
-- LinkedIn: [Rubén D. Pire](https://www.linkedin.com/in/rub%C3%A9n-dar%C3%ADo-pire-l%C3%B3pez-507111189/)
 
 ## 🤝 Contributing
 
