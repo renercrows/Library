@@ -36,8 +36,6 @@
 - CSS
 - JS
 
-## Live Demo
-[Live Demo](https://rpire.github.io/awesome-books/)
 
 ## Getting Started
 
@@ -47,9 +45,6 @@ To get started locally follow these simple example steps.
 - Add an index.html and index.css file from your text editor and make the necessary modifications.
 - Push the branch to github using `git push`
 - Create a descriptive pull request detailing what your new feature is
-
-## Authors
-
 
 
 ## 🤝 Contributing
