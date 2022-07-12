@@ -6,7 +6,7 @@ const addNewLink = document.getElementById('add-new-btn');
 const invitation = document.getElementById('invitation');
 const contactLink = document.getElementById('contact-btn');
 
-export const setTimeDate = () => {
+const setTimeDate = () => {
   const { DateTime } = luxon;
   const now = DateTime.now().toLocaleString(DateTime.DATETIME_FULL);
   document.getElementById('date').innerHTML = now;
@@ -22,7 +22,7 @@ if (localStorage.getItem('visibility')) {
   visibility = localStorage.getItem('visibility');
 }
 
-const toggleList = () => {
+export const toggleList = () => {
   if (list.classList.contains('invisible')) {
     list.classList.toggle('invisible');
     addNew.classList.add('invisible');
@@ -82,3 +82,5 @@ listLink.onclick = () => { toggleList(); };
 addNewLink.onclick = () => { toggleAddNew(); };
 invitation.onclick = () => { toggleAddNew(); };
 contactLink.onclick = () => { toggleContact(); };
+
+export default setTimeDate;

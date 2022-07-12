@@ -1,7 +1,6 @@
 const errorMsg = document.querySelector('#message');
 
 class BookForm {
-
   constructor() {
     this.books = [
       {
@@ -39,9 +38,9 @@ class BookForm {
         author[i].innerHTML = `By ${this.books[i].author}`;
         errorMsg.innerHTML = '';
       }
+      window.bookForm = bookForm;
       title[i].innerHTML = `"${this.books[i].title}"`;
       button[i].setAttribute('onclick', `bookForm.removeBook(${i})`);
-      window.bookForm = bookForm;
     }
     if (this.books.length === 0) {
       document.querySelector('#empty-list').innerHTML = 'List empty';
