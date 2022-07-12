@@ -38,7 +38,6 @@ class BookForm {
         author[i].innerHTML = `By ${this.books[i].author}`;
         errorMsg.innerHTML = '';
       }
-      window.bookForm = bookForm;
       title[i].innerHTML = `"${this.books[i].title}"`;
       button[i].setAttribute('onclick', `bookForm.removeBook(${i})`);
     }
